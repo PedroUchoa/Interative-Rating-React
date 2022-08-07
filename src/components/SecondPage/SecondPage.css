@@ -1,0 +1,43 @@
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: var(--Dark-Blue);
+    padding: 30px;
+    text-align: center;
+}
+
+.container-principal img{
+    max-width: 200px;
+}
+
+.container-value{
+    background-color: hsl(216, 12%, 8%, 20%);
+    font-family: 'Overpass',
+    sans-serif;;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.container-value h1{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--Orange);
+}
+
+.container-principal h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.container-principal p{
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--Medium-Grey);
+    margin-top: 10px;
+    line-height: 22px;
+}

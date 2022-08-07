@@ -1,0 +1,27 @@
+.No-Active {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--Light-Grey);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+.Active {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 400;
+}
